@@ -5,6 +5,7 @@ import DoughnutChart from "@/src/chart/DoughnutChart";
 import LineChart from "@/src/chart/LineChart";
 import PieChart from "@/src/chart/PieChart";
 import PolarChart from "@/src/chart/PolarChart";
+import Barline from "@/src/chart/Barline";
 
 const ChartPage = () => {
   return (
@@ -12,9 +13,10 @@ const ChartPage = () => {
    <Navbar />
   {/* <BarChart/> */}
   {/* <PieChart/> */}
-  <DoughnutChart/>
+  {/* <DoughnutChart/> */}
   {/* <LineChart/> */}
   {/* <PolarChart/> */}
+  <Barline/>
   </>
   );
 };
