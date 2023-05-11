@@ -13,10 +13,10 @@ const ChartPage = () => {
    <Navbar />
   {/* <BarChart/> */}
   {/* <PieChart/> */}
-  {/* <DoughnutChart/> */}
+  <DoughnutChart/>
   {/* <LineChart/> */}
   {/* <PolarChart/> */}
-  <Barline/>
+  {/* <Barline/> */}
   </>
   );
 };
